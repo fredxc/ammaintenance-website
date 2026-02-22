@@ -4,10 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  // Set base path for GitHub Pages deployment
-  // If deploying to https://username.github.io/repo-name/, use '/repo-name/'
-  // If deploying to a custom domain or root, use '/'
-  base: process.env.GITHUB_PAGES === "true" ? "/ammaintenance-website/" : "/",
+  // Custom domain (ammaintenance.fredx.dev) - use base path '/'
+  base: "/",
 
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
