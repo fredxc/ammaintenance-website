@@ -19,9 +19,9 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-3">
-              <a href="tel:+31612345678" className="flex items-center gap-3 text-gray-400 hover:text-white transition">
+              <a href="tel:+31634508004" className="flex items-center gap-3 text-gray-400 hover:text-white transition">
                 <Phone className="w-5 h-5" />
-                <span>06 1234 5678</span>
+                <span>06 3450 8004</span>
               </a>
               <a href="mailto:info@am-maintenance.nl" className="flex items-center gap-3 text-gray-400 hover:text-white transition">
                 <Mail className="w-5 h-5" />

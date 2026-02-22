@@ -92,7 +92,7 @@ export function About() {
             {/* CTA */}
             <div className="pt-6">
               <a
-                href="tel:+31612345678"
+                href="tel:+31634508004"
                 className="inline-flex items-center gap-2 bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition text-lg font-semibold shadow-lg hover:shadow-xl"
               >
                 <span>Neem contact op</span>

@@ -38,11 +38,11 @@ export function Header() {
 
           {/* Desktop Phone Button */}
           <a
-            href="tel:+31612345678"
+            href="tel:+31634508004"
             className="hidden md:flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition"
           >
             <Phone className="w-5 h-5" />
-            <span>06 1234 5678</span>
+            <span>06 3450 8004</span>
           </a>
 
           {/* Mobile Menu Button */}
@@ -82,11 +82,11 @@ export function Header() {
               Contact
             </button>
             <a
-              href="tel:+31612345678"
+              href="tel:+31634508004"
               className="flex items-center justify-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition"
             >
               <Phone className="w-5 h-5" />
-              <span>06 1234 5678</span>
+              <span>06 3450 8004</span>
             </a>
           </div>
         )}
