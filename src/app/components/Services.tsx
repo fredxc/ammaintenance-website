@@ -1,40 +1,55 @@
-import { Home, Building2, Wrench, ArrowRight } from 'lucide-react';
-import renovationImage from 'figma:asset/4be9a86276a77536acb6ba186261ae3581546c65.png';
-import bathroomImage from 'figma:asset/a4a2cbea693234573e7dd4d368b22a6756233a1c.png';
-import kitchenImage from 'figma:asset/ee1e994cb40492c5a400fd9dfceac62a0e8a75c9.png';
+import { Home, Building2, Wrench, ArrowRight } from "lucide-react";
+const renovationImage = "/img3.webp";
+const bathroomImage = "/img4.webp";
+const kitchenImage = "/img5.webp";
 
 const services = [
   {
     id: 1,
     icon: Home,
-    title: 'Renovaties van woningen',
-    description: 'Geef uw woning een nieuwe uitstraling met een volledige of gedeeltelijke renovatie. Van schilderwerk tot vloeren, wij zorgen voor een naadloos proces en een prachtig eindresultaat waar u jaren plezier van heeft.',
+    title: "Renovaties van woningen",
+    description:
+      "Geef uw woning een nieuwe uitstraling met een volledige of gedeeltelijke renovatie. Van schilderwerk tot vloeren, wij zorgen voor een naadloos proces en een prachtig eindresultaat waar u jaren plezier van heeft.",
     image: renovationImage,
-    benefits: ['Complete begeleiding', 'Vakkundig afgewerkt', 'Tijdig opgeleverd']
+    benefits: [
+      "Complete begeleiding",
+      "Vakkundig afgewerkt",
+      "Tijdig opgeleverd",
+    ],
   },
   {
     id: 2,
     icon: Building2,
-    title: 'Aanbouw en uitbouw',
-    description: 'Meer ruimte nodig? Wij realiseren professionele aan- en uitbouwprojecten die perfect aansluiten bij uw bestaande woning. Van ontwerp tot oplevering, alles uit één hand met aandacht voor detail en kwaliteit.',
+    title: "Aanbouw en uitbouw",
+    description:
+      "Meer ruimte nodig? Wij realiseren professionele aan- en uitbouwprojecten die perfect aansluiten bij uw bestaande woning. Van ontwerp tot oplevering, alles uit één hand met aandacht voor detail en kwaliteit.",
     image: kitchenImage,
-    benefits: ['Deskundig advies', 'Vergunningen geregeld', 'Zorgvuldige uitvoering']
+    benefits: [
+      "Deskundig advies",
+      "Vergunningen geregeld",
+      "Zorgvuldige uitvoering",
+    ],
   },
   {
     id: 3,
     icon: Wrench,
-    title: 'Badkamer- en keukenverbouwingen',
-    description: 'Van verouderde ruimte naar uw droomkeuken of luxe badkamer. Wij verzorgen het volledige traject: ontwerp, loodgieterwerk, tegelwerk en afwerking. Functioneel, modern en op maat gemaakt.',
+    title: "Badkamer- en keukenverbouwingen",
+    description:
+      "Van verouderde ruimte naar uw droomkeuken of luxe badkamer. Wij verzorgen het volledige traject: ontwerp, loodgieterwerk, tegelwerk en afwerking. Functioneel, modern en op maat gemaakt.",
     image: bathroomImage,
-    benefits: ['Moderne ontwerpen', 'Hoogwaardig materiaal', 'Vakkundig geïnstalleerd']
-  }
+    benefits: [
+      "Moderne ontwerpen",
+      "Hoogwaardig materiaal",
+      "Vakkundig geïnstalleerd",
+    ],
+  },
 ];
 
 export function Services() {
   const scrollToContact = () => {
-    const element = document.getElementById('contact');
+    const element = document.getElementById("contact");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -47,7 +62,8 @@ export function Services() {
             Onze Diensten
           </h2>
           <p className="text-lg md:text-xl text-gray-600">
-            Specialist in renovatie, aan- en uitbouw, en badkamer- en keukenverbouwingen in Nederland
+            Specialist in renovatie, aan- en uitbouw, en badkamer- en
+            keukenverbouwingen in Nederland
           </p>
         </div>
 
@@ -57,11 +73,11 @@ export function Services() {
             <div
               key={service.id}
               className={`grid md:grid-cols-2 gap-8 items-center ${
-                index % 2 === 1 ? 'md:flex-row-reverse' : ''
+                index % 2 === 1 ? "md:flex-row-reverse" : ""
               }`}
             >
               {/* Image */}
-              <div className={`${index % 2 === 1 ? 'md:order-2' : ''}`}>
+              <div className={`${index % 2 === 1 ? "md:order-2" : ""}`}>
                 <div className="relative rounded-2xl overflow-hidden shadow-xl">
                   <img
                     src={service.image}
@@ -73,7 +89,9 @@ export function Services() {
               </div>
 
               {/* Content */}
-              <div className={`space-y-6 ${index % 2 === 1 ? 'md:order-1' : ''}`}>
+              <div
+                className={`space-y-6 ${index % 2 === 1 ? "md:order-1" : ""}`}
+              >
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
                     <service.icon className="w-6 h-6 text-orange-600" />
@@ -82,7 +100,7 @@ export function Services() {
                     {service.title}
                   </h3>
                 </div>
-                
+
                 <p className="text-lg text-gray-600 leading-relaxed">
                   {service.description}
                 </p>

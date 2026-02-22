@@ -1,5 +1,5 @@
-import { Phone, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { Phone, Menu, X } from "lucide-react";
+import { useState } from "react";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -7,7 +7,7 @@ export function Header() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setMobileMenuOpen(false);
     }
   };
@@ -22,16 +22,28 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-orange-600 transition">
+            <button
+              onClick={() => scrollToSection("home")}
+              className="text-gray-700 hover:text-orange-600 transition"
+            >
               Home
             </button>
-            <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-orange-600 transition">
+            <button
+              onClick={() => scrollToSection("services")}
+              className="text-gray-700 hover:text-orange-600 transition"
+            >
               Diensten
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-orange-600 transition">
+            <button
+              onClick={() => scrollToSection("about")}
+              className="text-gray-700 hover:text-orange-600 transition"
+            >
               Over Ons
             </button>
-            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-orange-600 transition">
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="text-gray-700 hover:text-orange-600 transition"
+            >
               Contact
             </button>
           </nav>
@@ -50,7 +62,11 @@ export function Header() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden text-gray-700"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -58,25 +74,25 @@ export function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden pb-4 space-y-4">
             <button
-              onClick={() => scrollToSection('home')}
+              onClick={() => scrollToSection("home")}
               className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
             >
               Home
             </button>
             <button
-              onClick={() => scrollToSection('services')}
+              onClick={() => scrollToSection("services")}
               className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
             >
               Diensten
             </button>
             <button
-              onClick={() => scrollToSection('about')}
+              onClick={() => scrollToSection("about")}
               className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
             >
               Over Ons
             </button>
             <button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection("contact")}
               className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
             >
               Contact

@@ -1,27 +1,27 @@
-import { Award, Users, Clock, Shield } from 'lucide-react';
-import interiorImage from 'figma:asset/d429df17128e159b5b502b467042103c7e6d64ee.png';
+import { Award, Users, Clock, Shield } from "lucide-react";
+const interiorImage = "/img2.webp";
 
 const features = [
   {
     icon: Award,
-    title: 'Vakmanschap',
-    description: 'Jarenlange ervaring in renovatie en verbouwing'
+    title: "Vakmanschap",
+    description: "Jarenlange ervaring in renovatie en verbouwing",
   },
   {
     icon: Users,
-    title: 'Klantgericht',
-    description: 'Uw wensen staan centraal bij elk project'
+    title: "Klantgericht",
+    description: "Uw wensen staan centraal bij elk project",
   },
   {
     icon: Clock,
-    title: 'Betrouwbaar',
-    description: 'Tijdige oplevering volgens afspraak'
+    title: "Betrouwbaar",
+    description: "Tijdige oplevering volgens afspraak",
   },
   {
     icon: Shield,
-    title: 'Kwaliteit',
-    description: 'Hoogwaardige materialen en afwerking'
-  }
+    title: "Kwaliteit",
+    description: "Hoogwaardige materialen en afwerking",
+  },
 ];
 
 export function About() {
@@ -63,14 +63,17 @@ export function About() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              AM Maintenance is uw betrouwbare partner voor alle renovatie- en verbouwingswerkzaamheden 
-              in Nederland. Met jarenlange ervaring en een team van vakkundige professionals zorgen wij 
-              ervoor dat elk project met de grootst mogelijke zorg en precisie wordt uitgevoerd.
+              AM Maintenance is uw betrouwbare partner voor alle renovatie- en
+              verbouwingswerkzaamheden in Nederland. Met jarenlange ervaring en
+              een team van vakkundige professionals zorgen wij ervoor dat elk
+              project met de grootst mogelijke zorg en precisie wordt
+              uitgevoerd.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Wij begrijpen dat een verbouwing een grote stap is. Daarom werken wij met transparante 
-              prijzen, duidelijke communicatie en vakmanschap waar u op kunt vertrouwen. Van het eerste 
+              Wij begrijpen dat een verbouwing een grote stap is. Daarom werken
+              wij met transparante prijzen, duidelijke communicatie en
+              vakmanschap waar u op kunt vertrouwen. Van het eerste
               adviesgesprek tot en met de oplevering staan wij voor u klaar.
             </p>
 
@@ -82,8 +85,12 @@ export function About() {
                     <feature.icon className="w-6 h-6 text-orange-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">{feature.title}</h3>
-                    <p className="text-sm text-gray-600">{feature.description}</p>
+                    <h3 className="font-semibold text-gray-900 mb-1">
+                      {feature.title}
+                    </h3>
+                    <p className="text-sm text-gray-600">
+                      {feature.description}
+                    </p>
                   </div>
                 </div>
               ))}
