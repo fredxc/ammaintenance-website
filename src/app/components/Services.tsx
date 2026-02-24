@@ -93,8 +93,8 @@ export function Services() {
                 className={`space-y-6 ${index % 2 === 1 ? "md:order-1" : ""}`}
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
-                    <service.icon className="w-6 h-6 text-orange-600" />
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <service.icon className="w-6 h-6 text-blue-900" />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
                     {service.title}
@@ -109,7 +109,7 @@ export function Services() {
                 <div className="space-y-3 pt-2">
                   {service.benefits.map((benefit, i) => (
                     <div key={i} className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-orange-600 rounded-full"></div>
+                      <div className="w-2 h-2 bg-blue-900 rounded-full"></div>
                       <span className="text-gray-700">{benefit}</span>
                     </div>
                   ))}
@@ -118,7 +118,7 @@ export function Services() {
                 {/* CTA */}
                 <button
                   onClick={scrollToContact}
-                  className="flex items-center gap-2 text-orange-600 font-semibold hover:gap-3 transition-all group"
+                  className="flex items-center gap-2 text-blue-900 font-semibold hover:gap-3 transition-all group"
                 >
                   <span>Vraag een offerte aan</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -132,7 +132,7 @@ export function Services() {
         <div className="mt-16 text-center">
           <button
             onClick={scrollToContact}
-            className="inline-flex items-center gap-2 bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition text-lg font-semibold shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-950 transition text-lg font-semibold shadow-lg hover:shadow-xl"
           >
             <span>Ontvang een vrijblijvende offerte</span>
             <ArrowRight className="w-5 h-5" />

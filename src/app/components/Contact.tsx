@@ -19,13 +19,13 @@ export function Contact() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
           {/* Phone */}
           <div className="bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
-            <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
-              <Phone className="w-7 h-7 text-orange-600" />
+            <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+              <Phone className="w-7 h-7 text-blue-900" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Telefoon</h3>
             <a
               href="tel:+31634508004"
-              className="text-lg text-gray-600 hover:text-orange-600 transition block mb-2"
+              className="text-lg text-gray-600 hover:text-blue-950 transition block mb-2"
             >
               06 3450 8004
             </a>
@@ -34,23 +34,23 @@ export function Contact() {
 
           {/* Email */}
           <div className="bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
-            <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
-              <Mail className="w-7 h-7 text-orange-600" />
+            <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+              <Mail className="w-7 h-7 text-blue-900" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
             <a
-              href="mailto:info@am-maintenance.nl"
-              className="text-lg text-gray-600 hover:text-orange-600 transition block mb-2 break-words"
+              href="mailto:info@asatimmerwerken.nl"
+              className="text-lg text-gray-600 hover:text-blue-950 transition block mb-2 break-words"
             >
-              info@am-maintenance.nl
+              info@asatimmerwerken.nl
             </a>
             <p className="text-sm text-gray-500">We reageren binnen 24 uur</p>
           </div>
 
           {/* Location */}
           <div className="bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition sm:col-span-2 lg:col-span-1">
-            <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
-              <MapPin className="w-7 h-7 text-orange-600" />
+            <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+              <MapPin className="w-7 h-7 text-blue-900" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Werkgebied</h3>
             <p className="text-lg text-gray-600 mb-2">Nederland</p>
@@ -59,7 +59,7 @@ export function Contact() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="bg-gradient-to-br from-orange-50 to-orange-100/50 rounded-2xl p-8 md:p-12 mb-12">
+        <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-2xl p-8 md:p-12 mb-12">
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Klaar om te starten?
@@ -70,14 +70,14 @@ export function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+31634508004"
-                className="inline-flex items-center justify-center gap-2 bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition text-lg font-semibold shadow-lg hover:shadow-xl"
+                className="inline-flex items-center justify-center gap-2 bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-950 transition text-lg font-semibold shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-6 h-6" />
                 <span>Bel ons direct</span>
               </a>
               <a
-                href="mailto:info@am-maintenance.nl"
-                className="inline-flex items-center justify-center gap-2 bg-white text-orange-600 border-2 border-orange-600 px-8 py-4 rounded-lg hover:bg-orange-50 transition text-lg font-semibold shadow-lg hover:shadow-xl"
+                href="mailto:info@asatimmerwerken.nl"
+                className="inline-flex items-center justify-center gap-2 bg-white text-blue-900 border-2 border-blue-900 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold shadow-lg hover:shadow-xl"
               >
                 <Mail className="w-6 h-6" />
                 <span>Stuur een email</span>
@@ -89,12 +89,12 @@ export function Contact() {
         {/* Trust Elements */}
         <div className="bg-white border border-gray-200 rounded-2xl p-8 md:p-10">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            Waarom AM Maintenance?
+            Waarom ASA Timmerwerken?
           </h3>
           <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="flex items-start gap-4">
               <svg
-                className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1"
+                className="w-6 h-6 text-blue-900 flex-shrink-0 mt-1"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -115,7 +115,7 @@ export function Contact() {
             </div>
             <div className="flex items-start gap-4">
               <svg
-                className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1"
+                className="w-6 h-6 text-blue-900 flex-shrink-0 mt-1"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -136,7 +136,7 @@ export function Contact() {
             </div>
             <div className="flex items-start gap-4">
               <svg
-                className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1"
+                className="w-6 h-6 text-blue-900 flex-shrink-0 mt-1"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -157,7 +157,7 @@ export function Contact() {
             </div>
             <div className="flex items-start gap-4">
               <svg
-                className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1"
+                className="w-6 h-6 text-blue-900 flex-shrink-0 mt-1"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >

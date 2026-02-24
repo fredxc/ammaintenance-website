@@ -34,7 +34,7 @@ export function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={interiorImage}
-                alt="AM Maintenance project"
+                alt="ASA Timmerwerken project"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
             </div>
@@ -42,11 +42,11 @@ export function About() {
             <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-lg">
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-600">15+</div>
+                  <div className="text-3xl font-bold text-blue-900">25+</div>
                   <div className="text-sm text-gray-600">Jaar ervaring</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-600">500+</div>
+                  <div className="text-3xl font-bold text-blue-900">250+</div>
                   <div className="text-sm text-gray-600">Projecten</div>
                 </div>
               </div>
@@ -57,13 +57,13 @@ export function About() {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                Over AM Maintenance
+                Over ASA Timmerwerken
               </h2>
-              <div className="w-20 h-1 bg-orange-600 mb-6"></div>
+              <div className="w-20 h-1 bg-blue-900 mb-6"></div>
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              AM Maintenance is uw betrouwbare partner voor alle renovatie- en
+              ASA Timmerwerken is uw betrouwbare partner voor alle renovatie- en
               verbouwingswerkzaamheden in Nederland. Met jarenlange ervaring en
               een team van vakkundige professionals zorgen wij ervoor dat elk
               project met de grootst mogelijke zorg en precisie wordt
@@ -81,8 +81,8 @@ export function About() {
             <div className="grid sm:grid-cols-2 gap-6 pt-6">
               {features.map((feature, index) => (
                 <div key={index} className="flex gap-4">
-                  <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="w-6 h-6 text-orange-600" />
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <feature.icon className="w-6 h-6 text-blue-900" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">
@@ -100,7 +100,7 @@ export function About() {
             <div className="pt-6">
               <a
                 href="tel:+31634508004"
-                className="inline-flex items-center gap-2 bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition text-lg font-semibold shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-950 transition text-lg font-semibold shadow-lg hover:shadow-xl"
               >
                 <span>Neem contact op</span>
               </a>

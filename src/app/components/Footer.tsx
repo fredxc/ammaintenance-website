@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">AM Maintenance</h3>
+            <h3 className="text-2xl font-bold mb-4">ASA Timmerwerken</h3>
             <p className="text-gray-400 leading-relaxed">
               Uw betrouwbare partner voor renovatie, aan- en uitbouw, en
               badkamer- en keukenverbouwingen in Nederland.
@@ -28,11 +28,11 @@ export function Footer() {
                 <span>06 3450 8004</span>
               </a>
               <a
-                href="mailto:info@am-maintenance.nl"
+                href="mailto:info@asatimmerwerken.nl"
                 className="flex items-center gap-3 text-gray-400 hover:text-white transition"
               >
                 <Mail className="w-5 h-5" />
-                <span>info@am-maintenance.nl</span>
+                <span>info@asatimmerwerken.nl</span>
               </a>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin className="w-5 h-5" />
@@ -56,7 +56,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <p>© {currentYear} AM Maintenance. Alle rechten voorbehouden.</p>
+            <p>© {currentYear} ASA Timmerwerken. Alle rechten voorbehouden.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition">
                 Privacybeleid

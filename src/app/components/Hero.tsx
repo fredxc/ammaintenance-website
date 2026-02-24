@@ -10,7 +10,7 @@ export function Hero() {
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Uw betrouwbare partner voor{" "}
-              <span className="text-orange-600">renovatie en onderhoud</span>
+              <span className="text-blue-900">renovatie en onderhoud</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
               Van complete woningrenovaties tot aan- en uitbouw, badkamer- en
@@ -68,14 +68,14 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a
                 href="tel:+31634508004"
-                className="flex items-center justify-center gap-2 bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition text-lg font-semibold shadow-lg hover:shadow-xl"
+                className="flex items-center justify-center gap-2 bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-950 transition text-lg font-semibold shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-6 h-6" />
                 <span>Bel ons direct</span>
               </a>
               <a
-                href="mailto:info@am-maintenance.nl"
-                className="flex items-center justify-center gap-2 bg-white text-orange-600 border-2 border-orange-600 px-8 py-4 rounded-lg hover:bg-orange-50 transition text-lg font-semibold"
+                href="mailto:info@asatimmerwerken.nl"
+                className="flex items-center justify-center gap-2 bg-white text-blue-900 border-2 border-blue-900 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold"
               >
                 <Mail className="w-6 h-6" />
                 <span>Vraag een offerte aan</span>
@@ -88,7 +88,7 @@ export function Hero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={heroImage}
-                alt="AM Maintenance renovatieproject"
+                alt="ASA Timmerwerken renovatieproject"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

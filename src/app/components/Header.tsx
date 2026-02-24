@@ -17,32 +17,32 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-gray-900">AM Maintenance</h1>
+            <img src="/logo.webp" alt="ASA Timmerwerken" className="h-12" />
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("home")}
-              className="text-gray-700 hover:text-orange-600 transition"
+              className="text-gray-700 hover:text-blue-950 transition"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-gray-700 hover:text-orange-600 transition"
+              className="text-gray-700 hover:text-blue-950 transition"
             >
               Diensten
             </button>
             <button
               onClick={() => scrollToSection("about")}
-              className="text-gray-700 hover:text-orange-600 transition"
+              className="text-gray-700 hover:text-blue-950 transition"
             >
               Over Ons
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="text-gray-700 hover:text-orange-600 transition"
+              className="text-gray-700 hover:text-blue-950 transition"
             >
               Contact
             </button>
@@ -51,7 +51,7 @@ export function Header() {
           {/* Desktop Phone Button */}
           <a
             href="tel:+31634508004"
-            className="hidden md:flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition"
+            className="hidden md:flex items-center gap-2 bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-950 transition"
           >
             <Phone className="w-5 h-5" />
             <span>06 3450 8004</span>
@@ -75,31 +75,31 @@ export function Header() {
           <div className="md:hidden pb-4 space-y-4">
             <button
               onClick={() => scrollToSection("home")}
-              className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
+              className="block w-full text-left py-2 text-gray-700 hover:text-blue-950"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
+              className="block w-full text-left py-2 text-gray-700 hover:text-blue-950"
             >
               Diensten
             </button>
             <button
               onClick={() => scrollToSection("about")}
-              className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
+              className="block w-full text-left py-2 text-gray-700 hover:text-blue-950"
             >
               Over Ons
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="block w-full text-left py-2 text-gray-700 hover:text-orange-600"
+              className="block w-full text-left py-2 text-gray-700 hover:text-blue-950"
             >
               Contact
             </button>
             <a
               href="tel:+31634508004"
-              className="flex items-center justify-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition"
+              className="flex items-center justify-center gap-2 bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-950 transition"
             >
               <Phone className="w-5 h-5" />
               <span>06 3450 8004</span>
